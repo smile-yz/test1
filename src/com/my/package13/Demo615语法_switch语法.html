@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>switch语法</title>
+    <script>
+        var a = 1;
+        switch (a) {
+            case 1:
+                alert("number");
+                break;
+            case "abc":
+                alert("string");
+                break;
+            case true:
+                alert("true");
+                break;
+            case null:
+                alert("null");
+                break;
+            case undefined:
+                alert("undefined");
+                break;
+        }
+        var sum = 0;
+        var num = 1;
+        while (num <= 100) {
+            sum += num;
+            num++;
+        }
+        alert(sum);
+
+        var sum = 0;
+        for (var i = 1;i <= 100; i++) {
+           sum += i;
+        }
+        alert(sum + "    for循环");
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

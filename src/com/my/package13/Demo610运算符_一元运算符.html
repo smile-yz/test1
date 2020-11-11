@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一元运算符</title>
+    <script>
+        var num = 3;
+        var a = num++;
+        document.write(num + "<br>");//4
+        document.write(a + "<br>");//3
+        document.write("<hr>");
+        var b = -3;//负数
+        document.write(b + "<br>");
+        var c = +"111";//字符串转换为数字number类型
+        document.write(a+c + "<br>");
+        var d = +"abc";
+        document.write(a+d + "<br>");//NaN不是数字的数字
+        document.write("<hr>");
+
+        var e = +true;//+1 -1
+        document.write(e + "=====" + typeof(e) + "<br>");
+        var f = +false;//+ - 都是0
+        document.write(f + "<br>");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

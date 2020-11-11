@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="case:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/case_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="case/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="case" />
+          <element id="file-copy" path="$PROJECT_DIR$/case/src/敏感词汇.txt" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/case/src/cn/itcast/web/servlet" />
+    </root>
+  </artifact>
+</component>

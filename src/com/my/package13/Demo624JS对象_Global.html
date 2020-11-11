@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global对象</title>
+    <script>
+        var str = "古力娜扎";
+        var encode = encodeURI(str);
+        document.write(encode + "<br>");//%E5%8F%A4%E5%8A%9B%E5%A8%9C%E6%89%8E
+        var encode2 = decodeURI(encode);
+        document.write(encode2 + "<br>");//古力娜扎
+
+        document.write("<hr>");
+
+        var encode11 = encodeURIComponent(str);
+        document.write(encode11 + "<br>");
+        var encode12 = decodeURIComponent(encode11);
+        document.write(encode12 + "<br>");
+
+        document.write("<hr>");
+
+        var str = "123abc";
+        var number = parseInt(str);
+        document.write(number + "<br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

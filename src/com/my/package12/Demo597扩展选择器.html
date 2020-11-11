@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div > p {
+            border: 1px solid;
+        }
+        input[type='text']{
+            border: 5px solid;
+        }
+        a:link{
+            color: pink;
+        }
+        a:hover{
+            color: green;
+        }
+        a:active{
+            color: yellow;
+        }
+        a:visited{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>古力娜扎</p>
+    </div>
+    <p>马尔扎哈</p>
+    <div>迪丽热巴</div>
+    <input type="text">
+    <input type="password">
+<br>
+<a href="#">石头人</a>
+
+</body>
+</html>

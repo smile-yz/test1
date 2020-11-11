@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="duguqiujian" />
+        <module name="day01_eesy_03mybatisdao" />
+        <module name="day02_eesy_01mybatisCRUD" />
+        <module name="travel" />
+        <module name="day01_eesy_03spring" />
+        <module name="day03_eesy_01datasourceAndTx" />
+        <module name="day03_eesy_03one2many" />
+        <module name="maven_java" />
+        <module name="maven_mysql" />
+        <module name="day01_eesy_01JDBC" />
+        <module name="day01_eesy_02mybatis_annotation" />
+        <module name="day02_eesy_01anno_ioc" />
+        <module name="day01_eesy_04mybatis_design" />
+        <module name="day01_eesy_01mybatis" />
+        <module name="day01_eesy_04bean" />
+        <module name="day02_eesy_02mybatisDao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="13">
+      <module name="day01_eesy_01JDBC" target="1.8" />
+      <module name="day01_eesy_01mybatis" target="1.8" />
+      <module name="day01_eesy_02mybatis_annotation" target="1.8" />
+      <module name="day01_eesy_03mybatisdao" target="1.8" />
+      <module name="day01_eesy_03spring" target="1.8" />
+      <module name="day01_eesy_04bean" target="1.8" />
+      <module name="day01_eesy_04mybatis_design" target="1.8" />
+      <module name="day02_eesy_01anno_ioc" target="1.8" />
+      <module name="day02_eesy_01mybatisCRUD" target="1.8" />
+      <module name="day02_eesy_02mybatisDao" target="1.8" />
+      <module name="day03_eesy_01datasourceAndTx" target="1.8" />
+      <module name="day03_eesy_03one2many" target="1.8" />
+      <module name="duguqiujian" target="1.8" />
+      <module name="maven_java" target="1.8" />
+      <module name="maven_mysql" target="13" />
+      <module name="SpringMVC" target="1.8" />
+      <module name="travel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

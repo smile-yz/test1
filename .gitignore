@@ -1,0 +1,14 @@
+# Project exclude paths
+/day01_eesy_01JDBC/target/
+/day01_eesy_01mybatis/target/
+/day01_eesy_02mybatis_annotation/target/
+/day01_eesy_03mybatisdao/target/
+/day01_eesy_03spring/target/
+/day01_eesy_04bean/target/
+/day01_eesy_04mybatis_design/target/
+/day02_eesy_01mybatisCRUD/target/
+/day02_eesy_02mybatisDao/target/
+/day03_eesy_01datasourceAndTx/target/
+/day03_eesy_03one2many/target/
+/out/
+/travel/target/

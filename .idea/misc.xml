@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/maven_java" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/travel" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven_java/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/travel/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_01mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_02mybatis_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_03mybatisdao/pom.xml" />
+        <option value="$PROJECT_DIR$/../day01_eesy_04mybatis_design/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_04mybatis_design/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_01mybatisCRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_02mybatisDao/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_01datasourceAndTx/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_33sy_03one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_eesy_03one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_01JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_03spring/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_eesy_04bean/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_eesy_01anno_ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/duguqiujian/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="JavaProject" />
+      </set>
+    </option>
+  </component>
+</project>
